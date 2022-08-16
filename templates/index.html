@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Application</title>    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    <h1>Stroke Prediction</h1>
+
+    <form>
+        
+        <label for="Gender">Gender:</label>
+        <select id="Gender" name="Gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        
+        <input type="number" name="Age" placeholder="Enter your age">
+
+        <label for="Hypertension">Hypertension:</label>
+        <select id="Hypertension" name="Hypertension">
+            <option value="0">I do not have hypertension</option>
+            <option value="1">I have hypertension</option>
+        </select>
+        
+        <label for="HeartDisease">Hypertension:</label>
+        <select id="HeartDisease" name="HeartDisease">
+            <option value="0">I do not have any heart heart diseases</option>
+            <option value="1">I have a heart disease</option>
+        </select>
+
+        <label for="Marriage">Married:</label>
+        <select id="Marriage" name="Marriage">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select>
+
+        <label for="WorkType">Work Type:</label>
+        <select id="WorkType" name="WorkType">
+            <option value="children">Take care of children</option>
+            <option value="Govt_jov">Government job</option>
+            <option value="Never_worked">Never worked</option>
+            <option value="Private">Private</option>
+            <option value="Self-employed">Self-employed</option>
+        </select>
+
+        <label for="Residence">Residence Type:</label>
+        <select id="Residence" name="Residence">
+            <option value="rural">Rural</option>
+            <option value="urban">Urban</option>
+        </select>
+
+        <input type="number" name="GlucoseLevel" placeholder="Average Glucose Level in Blood">
+
+        <input type="number" name="BMI" placeholder="BMI">
+
+        <label for="Smoking">Residence Type:</label>
+        <select id="Smoking" name="Smoking">
+            <option value="formerly smoked">Formerly Smoked</option>
+            <option value="never smoked">Never Smoked</option>
+            <option value="smokes">Smokes</option>
+            <option value="Unknown">Unknown</option>
+        </select>
+
+        <input type="submit">
+    
+    </form>
+
+</body>
+</html>
