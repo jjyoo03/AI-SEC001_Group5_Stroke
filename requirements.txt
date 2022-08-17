@@ -1,0 +1,15 @@
+click
+Flask
+gunicorn 
+itsdangerous 
+Jinja
+MarkupSafe
+numpy
+pandas
+scikit-learn
+Werkzeug
+copyreg
+collections
+sklearn.preprocessing
+sklearn.model_selection 
+sklearn.linear_model
