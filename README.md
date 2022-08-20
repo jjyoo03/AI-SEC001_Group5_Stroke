@@ -21,3 +21,5 @@
 # Run
 
 # flask run
+
+# click on "Running on "http://xxx.x.x.x:5000"
